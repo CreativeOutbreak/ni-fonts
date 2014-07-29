@@ -1,0 +1,32 @@
+@import "variables";
+
+body { 
+    max-width: 960px;
+    margin: auto;    
+}
+
+.style1 {
+    h1, h2, h3, h4, h5, h6, p, blockquote {
+        font-family: $font1;
+    }
+}
+
+.style2 {
+    h1, h2, h3, h4, h5, h6, p, blockquote {
+        font-family: $font2;
+    }
+}
+
+// The chances are you'll want to use different fonts for headers and other tags, so here's an example.
+
+.style3 {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $font2;
+    }
+    p, blockquote {
+        font-family: $font1;
+    }
+}
+
+
+
