@@ -13,7 +13,7 @@ body {
 
 .style2 {
     h1, h2, h3, h4, h5, h6, p, blockquote {
-        font-family: $font2;
+        font-family: $font1;
     }
 }
 
@@ -21,7 +21,16 @@ body {
 
 .style3 {
     h1, h2, h3, h4, h5, h6 {
-        font-family: $font2;
+        font-family: $font3;
+    }
+    p, blockquote {
+        font-family: $font1;
+    }
+}
+
+.style4 {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $font1;
     }
     p, blockquote {
         font-family: $font1;
@@ -29,4 +38,118 @@ body {
 }
 
 
+
+//
+
+
+
+
+
+.style1 h1, 
+.style1 h2, 
+.style1 h3, 
+.style1 h4, 
+.style1 h5, 
+.style1 h6, 
+.style1 p, 
+.style1 blockquote
+{font-family:"Open Sans",sans-serif}
+
+.style2 h1, 
+.style2 h2, 
+.style2 h3, 
+.style2 h4, 
+.style2 h5, 
+.style2 h6, 
+.style2 p, 
+.style2 blockquote
+{font-family:"Roboto Slab",cursive}
+
+.style3 h1,
+.style3 h2,
+.style3 h3,
+.style3 h4,
+.style3 h5,
+.style3 h6
+{font-family:"Roboto Slab",serif}
+.style3 p, 
+.style3 blockquote
+{font-family:"Oswald",sans-serif}
+
+.style4 h1, 
+.style4 h2, 
+.style4 h3, 
+.style4 h4, 
+.style4 h5, 
+.style4 h6
+{font-family:"Raleway",serif}
+.style4 p, 
+.style4 blockquote
+{font-family:"Raleway",sans-serif}
+
+.style5 h1, 
+.style5 h2, 
+.style5 h3, 
+.style5 h4, 
+.style5 h5, 
+.style5 h6
+{font-family:"Lato",serif}
+.style5 p, 
+.style5 blockquote
+{font-family:"Lato",sans-serif}
+
+.style6 h1, 
+.style6 h2, 
+.style6 h3, 
+.style6 h4, 
+.style6 h5, 
+.style6 h6
+{font-family:"Droid Serif",serif}
+.style6 p, 
+.style6 blockquote
+{font-family:"Droid Serif",sans-serif}
+
+.style7 h1, 
+.style7 h2, 
+.style7 h3, 
+.style7 h4, 
+.style7 h5, 
+.style7 h6
+{font-family:"Lato",serif}
+.style7 p, 
+.style7 blockquote
+{font-family:"Droid Serif",sans-serif}
+
+.style8 h1, 
+.style8 h2, 
+.style8 h3, 
+.style8 h4, 
+.style8 h5, 
+.style8 h6
+{font-family:"Merriweather",serif}
+.style8 p, 
+.style8 blockquote
+{font-family:"Oxygen",sans-serif}
+
+.style9 h1, 
+.style9 h2, 
+.style9 h3, 
+.style9 h4, 
+.style9 h5, 
+.style9 h6
+{font-family:"Cabin",serif}
+.style9 p, 
+.style9 blockquote
+{font-family:"Oxygen",sans-serif}
+
+.style10 h1, 
+.style10 h2, 
+.style10 h3, 
+.style10 h4, 
+.style10 h5, 
+.style10 h6
+{font-family:"Cabin",serif}
+.style10 p, 
+.style10 blockquote
+{font-family:"Oxygen",sans-serif}
 
